@@ -1,24 +1,33 @@
-import logo from './logo.svg';
+
 import './App.css';
 
+let name= "Mujjo";
+const element = (
+  <b className="greeting">
+    How are u today!
+  </b>
+);
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React by Mujjo
-        </a>
-      </header>
+    //jsx= html+js
+    //html ke tags & components can be used here but the name is change little bit
+
+    //<div className="blank">Lovely</div>
+
+    <>
+    
+    <h1 className='header1'>Hello {name} {element}</h1>
+    <nav>
+      <li>Home</li>
+      <li>About</li>
+      <li>Contact</li>
+    </nav>
+    <div className="container">
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et quibusdam alias iusto voluptate soluta, minima praesentium debitis doloribus error harum repudiandae esse ex quod atque eveniet sequi. Qui dolores et tempore eum quae quam.</p>
     </div>
+   
+    
+    </>
   );
 }
 

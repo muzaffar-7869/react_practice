@@ -1,0 +1,36 @@
+Main pgm will be written in app.js
+react uses functions not classes
+in functions we use return function (its common in all lang.)
+we use paranthesis () to use jsx
+react uses JSX means its combination of htlm & js
+
+html tags & methods replaced with these in jsx {
+class: className
+for: htmlFor
+}
+
+js will always written in: { }
+
+<h1> use for heading
+The <nav> tag defines a set of navigation links.
+
+The <li> tag in HTML is used to define the list of items in an HTML document.
+
+The <div> tag defines a division or a section in an HTML document.
+The <div> tag is used as a container for HTML elements - which is then styled with CSS or manipulated with JavaScript.
+
+HTML <p> tag defines the paragraph and is used to give structure to text content within a webpage.
+in <p> tag type loren34 + tab_button: create sample paragraph
+
+write in app.jss:
+<tag className="blank"> </tag> //tag can be h1,div,p,li,etc. 
+so write in App.css:
+.blank{
+  color: rgb(0, 173, 107);
+}
+
+
+declare any varible of js outside of function
+e.g let name= "Mujjo";  
+can be use in html tags with { }
+e.g: <h1>Hello {name}</h1>

@@ -1,0 +1,18 @@
+we have used blank name class with dev tag with tab_button
+whatever will be written in tag will be displayed on browser e.g Lovely
+
+
+className="blank"
+so write:
+.blank{
+  color: rgb(0, 173, 107);
+}
+ written in App.css to change color of the text: Lovely
+
+we can take class name using: <div className="container">
+
+declare any varible of js outside of function
+e.g let name= "Mujjo";  
+can be use in html tags with { }
+e.g: <h1>Hello {name}</h1>
+
