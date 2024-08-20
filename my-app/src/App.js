@@ -1,12 +1,13 @@
 
 import './App.css';
+import Navbar from './components/Navbar';
 
-let name= "Mujjo";
-const element = (
-  <b className="greeting">
-    How are u today!
-  </b>
-);
+// let name= "Mujjo";
+// const element = (
+//   <b className="greeting">
+//     How are u today!
+//   </b>
+// );
 function App() {
   return (
     //jsx= html+js
@@ -15,7 +16,8 @@ function App() {
     //<div className="blank">Lovely</div>
 
     <>
-  {/* remove curly brac and comment
+  {/* module 1:
+  remove curly brac and comment
     <h1 className='header1'>Hello {name} {element}</h1>
     <nav>
       <li>Home</li>
@@ -26,7 +28,9 @@ function App() {
       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et quibusdam alias iusto voluptate soluta, minima praesentium debitis doloribus error harum repudiandae esse ex quod atque eveniet sequi. Qui dolores et tempore eum quae quam.</p>
     </div>
     */}
-   
+
+    <Navbar title="My React-app" aboutText="About My React-app"/>
+    {/* <Navbar/> */}
     </>
   );
 }

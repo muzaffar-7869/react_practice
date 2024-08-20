@@ -17,3 +17,40 @@ can be use in html tags with { }
 e.g: <h1>Hello {name}</h1>
 
 Module2:
+
+copy the js script from official website of bootstrap and paste it to public/index.html-- body
+also copy style(css) code to same file in head tag
+
+copy sample navbar code from bootstarp webs. paste it in app.js
+replace class with className & href="#" with href="/"
+
+we have created a folder name: components
+in that i have created a Navbar.js file
+& moved all code of which we have copied
+used <Navbar/> in app.js to use that module of code Navbar.js in main pgm 
+
+add props in func of Navbar.js file
+export default function Navbar(props):
+replace the name of 1st <a> name with {props.title} 
+now what will u write in <Navbar/> like <Navbar title="React-app" />
+then it will change the name with this title name
+// props act as this method like this. and can use it in app.js
+
+there are some types of props:
+Navbar is our module name of Navbar.js
+1)Navbar.protoTypes
+e.g:
+Navbar.protoTypes = {
+    //declare types of text wich will be used to avoid error 
+    title:PropTypes.string.isRequired, // should be defind by pgmr "required" 
+    aboutText: PropTypes.string.isRequired,// convert into string
+}
+
+2)Navbar.defaultProps
+e.g:
+Navbar.defaultProps = {
+    // if values not set in <Navbar/> to title & aboutText then it will use default values
+    title : 'Set title here',
+    aboutText : 'About',
+}
+
