@@ -1,7 +1,7 @@
 we have used blank name class with dev tag with tab_button
 whatever will be written in tag will be displayed on browser e.g Lovely
 
-
+Module1:
 className="blank"
 so write:
 .blank{
@@ -16,3 +16,4 @@ e.g let name= "Mujjo";
 can be use in html tags with { }
 e.g: <h1>Hello {name}</h1>
 
+Module2:

@@ -15,7 +15,7 @@ function App() {
     //<div className="blank">Lovely</div>
 
     <>
-    
+  {/* remove curly brac and comment
     <h1 className='header1'>Hello {name} {element}</h1>
     <nav>
       <li>Home</li>
@@ -25,8 +25,8 @@ function App() {
     <div className="container">
       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et quibusdam alias iusto voluptate soluta, minima praesentium debitis doloribus error harum repudiandae esse ex quod atque eveniet sequi. Qui dolores et tempore eum quae quam.</p>
     </div>
+    */}
    
-    
     </>
   );
 }
