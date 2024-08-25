@@ -1,6 +1,7 @@
 
 import './App.css';
 import Navbar from './components/Navbar';
+import TextForm from './components/TextForm';
 
 // let name= "Mujjo";
 // const element = (
@@ -31,6 +32,7 @@ function App() {
 
     <Navbar title="My React-app" aboutText="About My React-app"/>
     {/* <Navbar/> */}
+    <TextForm/>
     </>
   );
 }
